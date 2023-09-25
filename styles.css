@@ -1,4 +1,3 @@
-
 *
 {
     margin: 0;
@@ -164,15 +163,28 @@ body
 }
 
 
-@media(max-width:500px)
+
+
+
+
+
+@media(max-width:600px)
 {
   
    
+  .weather h1
+  {
+    font-size: 40px;
+  }
 
+  .weather h2
+  {
+    font-size: 30px;
+  }
     #card
     {
-      width: 100%;
-      height: 20%;
+      width: 70%;
+      margin: 20px auto 0;
  }
  
     
@@ -195,32 +207,11 @@ body
 
 
 
-
-@media(max-width:250px)
+@media(max-width:300px)
 {
-  
-   
-
-    #card
-    {
-      width: 80%;
-      height: 20%;
- }
- 
     
-    .search input
-    {
-        width: 100%;
-        height: 20px;
-        padding: 8px;
-        font-size: 15px;
+    .wind{
+        font-size: 25px;
     }
 
-    .search button 
-    {
-        padding: 10px 12px;
-       
-        margin-left: 2px;
-    }
 }
-

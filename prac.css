@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+body
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#card
+{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(135deg ,#00feba ,#5b548a);
+}
+
+.inp
+{
+    width: 50%;
+    padding:12px;
+    border-radius:30px;
+    border: none;
+}
+
+.setinput
+{
+    margin: 25px;
+    text-align: center;
+}
+
+.setinput button
+{
+    width: 45px;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+}
+
+.imgbt
+{
+   
+    height: 13px;
+}
+
+.mainimg
+{
+    text-align: center;
+    color: white;
+}
+
+.mainimg img
+{
+    width:250px
+}
+
+.mainimg .temp
+{
+    font-weight: 10px;
+    font-size: 90px;
+}
+
+.mainimg .country
+{
+    font-size: 40px;
+}
+
+.calci
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.humidity
+{
+    display: flex;
+}
+
+.wind-speed
+{
+    display: flex;
+}
+
+.hum 
+{
+    text-align: center;
+    margin-left: 15px;
+   
+}
+
+.per
+{
+    font-size: 40px;
+}
+
+
+.wun
+{
+    text-align: center;
+    margin-left: 10px;
+   
+}
+
+.speed
+{
+    font-size: 40px;
+}
